@@ -1,15 +1,24 @@
+<b><p>This library helps to use javascript's localStorage in an easier way.</p></b>
 
-New object:
+New object:<br>
+  <code>
   let cart = new Local('item')
-
-Add var in array:
+  </code><br><br>
+Add var in array:<br>
+<code>
   cart.add({'id':1})
- 
-Get data:
+ </code><br><br>
+Get data:<br>
+  <code>
   cart.get()
-  #output
-    [{…}]
+  </code><br><br>
+  <code>#output</code>
+  <code>
+    [{…}]<br><br>
     0: {id: 1}
+  </code>
     
-Delete:
+Delete:<br>
+<code>
   cart.delete(1)
+</code>
