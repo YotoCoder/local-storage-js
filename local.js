@@ -1,4 +1,4 @@
-class Local{
+export default class Local{
 	
 	constructor(key){
 		this.key = key
