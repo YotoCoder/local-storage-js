@@ -25,9 +25,10 @@ export default class Local{
 
 	delete(id){
 		let list = this.get()
-	    for(var i = list.length - 1; i>=0 ;i--){
-	        if(list[i].id == id)
-	            list.splice(i, 1);
+		
+	   	for(var i = list.length - 1; i>=0 ;i--){
+	        	if(list[i].id == id)
+	            	list.splice(i, 1);
 	    }
 	   	this.set(list)
 	}
